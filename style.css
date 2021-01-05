@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.dummmy-text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+section {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.alo {
+    color: orange;
+}
+
+.half-width {
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hire {
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(tomato, yellow);
+    color: white;
+    padding: 14px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+#top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+#dream-part {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 150px;
+}
+.xp{
+    height: 500px;
+    background-image:url(images/xp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 20px
+}
+.shadow{
+    box-shadow: 10px 20px 40px gray;
+    border: 10px;
+    border-radius: 15px;
+
+}
+#baby{
+    max-width: 40%;
+    padding: 10px;
+    border-width: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(salmon,tomato) 2 100%;
+
+}
+#pro{
+    max-width: 40%;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(lightyellow,orange) 1 100%;
+}
+footer{
+    text-align: center;
+}
