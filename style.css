@@ -78,6 +78,7 @@ section {
     border-image: 
     linear-gradient(lightyellow,orange) 1 100%;
     border-image-slice: 1;
+    background-color: white;
 }
 footer{
     text-align: center;
