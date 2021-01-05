@@ -58,34 +58,26 @@ section {
     padding-bottom: 150px;
 }
 .xp{
-    height: 500px;
+    height: 300px;
     background-image:url(images/xp-bg.png);
+    background-position: left;
     background-repeat: no-repeat;
-    margin-top: 20px
 }
 .shadow{
     box-shadow: 10px 20px 40px gray;
     border: 10px;
     border-radius: 15px;
-
 }
 #baby{
-    max-width: 40%;
-    padding: 10px;
-    border-width: 5px;
-    border-radius: 15px;
-    border-style: solid;
-    border-image: 
-    linear-gradient(salmon,tomato) 2 100%;
-
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
 }
 #pro{
-    max-width: 40%;
-    padding: 10px;
-    border-width: 5px;
-    border-style: solid;
+    border-left: 5px solid;
     border-image: 
     linear-gradient(lightyellow,orange) 1 100%;
+    border-image-slice: 1;
 }
 footer{
     text-align: center;
